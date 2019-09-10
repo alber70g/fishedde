@@ -11,6 +11,8 @@ Install using package manager
 fisher i alber70g/fishedde
 ```
 
+Uninstall with `fisher rm alber70g/fishedde`
+
 ## Contents
 
 There's a set of commands that I use frequently. You might like it or not, feel
