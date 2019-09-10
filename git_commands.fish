@@ -1,13 +1,8 @@
+# If you have fixes, or ways to make the commands better, please
+# [fork](https://github.com/alber70g/fishedde/fork) and send a pull request
+
 function gunpushed --description "Git: show unpushed changes on current branch"
   git log origin/(git symbolic-ref --short HEAD)..HEAD
-end
-
-function gstatus --description "Git: fetch and show status"
-  git fetch;and git status
-end
-
-function gresetremote --description "Git: delete local- and checkout remote branch"
-  git checkout master;and git branch -D $argv;and git checkout $argv
 end
 
 function _getRecentBranches
