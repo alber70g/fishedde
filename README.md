@@ -11,6 +11,16 @@ Install using package manager
 fisher i alber70g/fishedde
 ```
 
+**Dependencies**  
+Install several utilities that are used by commands below.
+
+- fzf
+- coreutils
+
+```sh
+brew install fzf coreutils
+```
+
 Uninstall with `fisher rm alber70g/fishedde`
 
 ## Contents
