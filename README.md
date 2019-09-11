@@ -39,22 +39,22 @@ If you have fixes, or ways to make the commands better, please
   git clone command that takes creates a directory for the owner and clones in
   that directory
 
-```
- $ gcl git@github.com:alber70g/fishedde.git
- $ cd alber70g/fishedde
- $ _
-```
+  ```
+  $ gcl git@github.com:alber70g/fishedde.git
+  $ cd alber70g/fishedde
+  $ _
+  ```
 
 - `gco`  
   git checkout recently visited branches interactive with fzf
 
-```
- $ gco
-origin/master
-master
-2/2
-> _
-```
+  ```
+  $ gco
+  origin/master
+  master
+  2/2
+  > _
+  ```
 
 - `gunpushed`  
   shows the git log of unpushed changes of the current branch
