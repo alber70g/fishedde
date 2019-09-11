@@ -8,7 +8,7 @@ Install using package manager
 [fisher](https://github.com/jorgebucaran/fisher#installation)
 
 ```sh
-fisher i alber70g/fishedde
+fisher add alber70g/fishedde
 ```
 
 **Dependencies**  
