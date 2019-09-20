@@ -26,5 +26,7 @@ function gdelete --description "Git: switch to temp branch, delete branch,
 end
 
 function gcl --description "Git clone in subdirectory based on repository owners name"
-  echo $argv | rev | cut -d"/" -f 1,2 | cut -d":" -f 1 | cut -d"." -f 2-99 | rev | xargs git clone $argv
+  set directory (echo $argv | rev | cut -d"/" -f 1,2 | cut -d":" -f 1 | cut -d"." -f 2-99 | rev)
+  git clone $argv $directory
+  cd $directory
 end
